@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: #272727;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+
+#header1{
+    display: grid;
+    justify-content: right;
+}
+
+#header1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 30px 30px 0 0;
+    letter-spacing: 0.1rem;
+    position: relative;
+}
+
+#header1 a::before{
+    display: block;
+    content:url(./Group\ 3.svg);
+    position: absolute;
+    top: -15px;
+    left:-70px;
+}
+
+#header2 h2{
+    
+    margin: 10px 0 0 50px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+    position: relative;
+}
+
+#header2 h2::after{
+    content: url(./sun\ 1.svg);
+    position: absolute;
+    top: -5px;
+    left: 300px;
+}
+
+#showcase__item1{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-top: 100px;
+}
+
+.btn1{
+    box-shadow: 0px 0px 3px 0px #272727;
+    background-color: white;
+    padding: 5px 0 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: black;
+    position: relative;
+    width: 130px;
+    height: 35px;
+    letter-spacing: 0.2rem;
+    margin: 0px 0 0 80px;
+
+}
+
+.btn1::after{
+    content: url(./home1.svg);
+    position: absolute;
+    left: 90px;
+    top: 5px;
+}
+
+#showcase__item1 h3{
+    margin-left: 50px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+
+#showcase__item2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.box1{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 1px 2px 0px #c8c1c1;
+    margin: 60px 0 50px 0;
+}
+
+.box1 img{
+    width: 350px;
+    opacity: 0.5;
+}
+
+.box1 img:hover{
+    opacity: 5;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.box1 h3{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 5px 0 0 20px;
+}
+
+.play{
+    display: grid;
+    grid-template-columns: 35px 200px;
+    margin: 8px 0 0 20px;
+}
+
+.dot{
+    border: 0.5px solid rgb(53, 52, 52);
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.dot::after{
+    content: url(./Vector.svg);
+    position: absolute;
+    left: 7.5px;
+}
+
+.play p{
+    padding-top: 5px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+
+}
+
+.button{
+    box-sizing: border-box;
+    margin: 20px 0 0 20px;
+    border: 1px solid black;
+    width: 150px;
+    padding: 2px 0px 4px 15px;
+    border-radius: 30px;
+}
+
+.button a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.1rem;
+}
+
+.naira{
+    border: 0.5px solid rgb(53, 52, 52);
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 3px;
+    left: 40px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.naira::after{
+    content: url(./Vector-1.svg);
+    position: absolute;
+    left: 2px;
+    top: -1px;
+}
+
+.text{
+    text-align: right;
+    padding: 5px 10px 0 0;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
